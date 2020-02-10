@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Swiss Poster</title>
+
+    <link rel="stylesheet" href="public/css/main.css" />
+    <link rel="icon" href="images/fawicon.png" />
+  </head>
+
+    <style>
+      :root{
+        background-color: red;
+      }
+      * {
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+      }
+
+      body{
+        font-size: 63.5%;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      ul{
+        list-style: none;
+      }
+
+/* app */
+
+#app{
+  width:100%;
+  height:95vh;
+  max-width:1280px;
+  margin: 2rem auto;
+  /* background-color: (var(--bg-color)); */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* app */
+
+.main{
+  display: flex;
+  flex-direction:column;
+  width:100%
+}
+
+.main__section{
+  display:flex;
+  flex-direction:row;
+  width: 100%;
+  height:auto;
+  min-height: 4rem;
+  padding: 1rem 0 0 0;
+}
+.main__section:not(:first-child){
+  border-top:4px solid black;
+  /* border-bottom:4px solid black; */
+}
+
+.main__section:not(:last-child){
+  border-top: 4px solid black;
+  margin-right:2rem;
+}
+
+.main__section-title{
+  flex-basis: 50%;
+  font-size:1.4rem;
+}
+
+.main__section-content{
+  flex-basis: 25%;
+  font-size:0.8rem;
+}
+
+/* header */
+
+.header{
+  min-height:180px;
+  padding-left: 160px;
+  width:100%;
+  display: flex;
+  flex-direction:column;
+  border-top:4px solid black;
+}
+
+.header__title{
+  color: white;
+  max-width:50%;
+  font-size:12rem;
+  line-height: 95%;
+  transform:translate(-4.7rem,0);
+}
+
+.header__title >spam{
+  display:block;
+  
+}
+
+/* footer - my footer has a mind of its own... its not reflecting the #app pre-settings */ 
+
+.footer{
+  display:flex;
+  padding-top: 100px;
+  padding-left: 112px;
+  flex-direction:row;
+  width:92%;
+  
+}
+
+.footer__section{
+  flex-basis:25%;
+  border-top:4px solid black;
+  padding: 4rem 0 0 0;
+}
+
+
+.footer__section-content-item{
+  font-size: 1.4rem;
+}
+</style>
+
+<!-- footer - i know this isn't the most efficient way of doing this --> 
+<footer class="footer">
+  <!-- col 1 -->
+  <section class="footer__section">
+    <ul class="footer__section">
+      <li class="footer__section-content-item"></li>
+      <li class="footer__section-content-item"></li>
+    </ul>
+  </section>
+  <!-- col 2 -->
+  <section class="footer__section">
+    <ul class="footer__section">
+      <h2 class="footer__section-content-item">Juni-Festwochen Zürich 1959</h2>
+    </ul>
+  </section>
+  <!-- col 3 -->
+  <section class="footer__section">
+    <ul class="footer__section">
+      <li class="footer__section-content-item"></li>
+    </ul>
+  </section>
+  <!-- col 4 -->
+  <section class="footer__section">
+    <ul class="footer__section">
+      <li class="footer__section-content-item"></li>
+    </ul>
+  </section>
+  <!-- col 5 -->
+  <section class="footer__section">
+    <ul class="footer__section">
+      <li class="footer__section-content-item"></li>
+    </ul>
+  </section>
+</footer>
+  <body>
+    <div id="app">
+   <!-- header -->
+  <header class="header">
+    <h1 class="header__title">Stadtheater</h1>
+  </header>
+  <!-- the main information of our site -->
+    <main class="main">
+  <!-- row 1 -->
+  <section class="main__section">
+    <ul class="main__section-content">
+      <li class ="main__section-content-item">Lorem ipsum dolor sit amet,</li>
+      <li class ="main__section-content-item">consectetur adipiscing elit</li>
+    </ul>
+    <h2 class="main__section-title">Der Sturm</h2>
+    <ul class="main__section-content">
+      <li class="main__section-content-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+   </ul>
+    <ul class="main__section-content">
+      <li class="main__section-content-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+   </ul>
+  </section>
+  <!-- row 2 -->
+  <section class="main__section">
+    <ul class="main__section-content">
+      <li class ="main__section-content-item">Lorem ipsum dolor sit amet,</li>
+      <li class ="main__section-content-item">consectetur adipiscing elit</li>
+    </ul>
+    <h2 class="main__section-title">Cosi fan tutte</h2>
+    <ul class="main__section-content">
+      <li class="main__section-content-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+   </ul>
+    <ul class="main__section-content">
+      <li class="main__section-content-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+   </ul>
+  </section>
+  <!-- row 3 -->
+  <section class="main__section">
+    <ul class="main__section-content">
+      <li class ="main__section-content-item">Lorem ipsum dolor sit amet,</li>
+      <li class ="main__section-content-item">consectetur adipiscing elit</li>
+    </ul>
+    <h2 class="main__section-title">Lucia di Lammermoor</h2>
+    <ul class="main__section-content">
+      <li class="main__section-content-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+   </ul>
+    <ul class="main__section-content">
+      <li class="main__section-content-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+   </ul>
+  </section>
+  <!-- row 4 -->
+  <section class="main__section">
+    <ul class="main__section-content">
+      <li class ="main__section-content-item">Lorem ipsum dolor sit amet,</li>
+      <li class ="main__section-content-item">consectetur adipiscing elit</li>
+    </ul>
+    <h2 class="main__section-title">London's Festival Ballet</h2>
+    <ul class="main__section-content">
+      <li class="main__section-content-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+   </ul>
+    <ul class="main__section-content">
+      <li class="main__section-content-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+   </ul>
+  </section>
+  <!-- row 5 -->
+  <section class="main__section">
+    <ul class="main__section-content">
+      <li class ="main__section-content-item">Lorem ipsum dolor sit amet,</li>
+      <li class ="main__section-content-item">consectetur adipiscing elit</li>
+    </ul>
+    <h2 class="main__section-title">Der Ring des Nibelungen</h2>
+    <ul class="main__section-content">
+      <li class="main__section-content-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+   </ul>
+    <ul class="main__section-content">
+      <li class="main__section-content-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+   </ul>
+  </section>
+
+    </main>
+    </div>
+    <script src="public/js/main.js"></script>
+  </body>
