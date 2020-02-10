@@ -5,11 +5,6 @@ assignment 2 - swiss poster design
 My attempt at making a swiss poster.
 
 
-## About
-
-The Good Project Readme Project is a project about about how to make a good Readme so that you can keep your projects well documented and allow yourself and others to build on or learn from your work. The project is meant to be an example for others to learn by example and see what aspects might be necessary for a good readme.
-
-
 ### My Process / Development
 
 - Honestly, I still don't feel confident in my HTML & CSS skills to write this from scratched so I used an example code from the slides and reverse-engineered use it for my own good.
