@@ -7,7 +7,7 @@ My attempt at making a swiss poster.
 
 ### My Process / Development
 
-- Honestly, I still don't feel confident in my HTML & CSS skills to write this from scratched so I used an example code from the slides and reverse-engineered use it for my own good.
+- I used an example code from the slides and reverse-engineered use it for my own good.
 - I honestly learned quite a bit in the reverse-engineering process, using it almost as my own DOM tree to figure out what exactly does what.
 - After taking out what I didn't need & changing around the order of the header, main, and footer, I started to implement some of recenty learned CSS skills. 
 - Specifically, taking advantage of the padding and margins and the various functions.
